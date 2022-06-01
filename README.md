@@ -38,9 +38,20 @@ A File Rename Bot with Custom Thumbnail Support
 
 * ADMIN         - Your User ID 
 
+* DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
+
 * DATABASE_URI  - Mongo Database URL from https://cloud.mongodb.com/
 
-* DATABASE_NAME  - Your database name from mongoDB. Default will be 'my'
+# HOW TO FILL -
+
+EXAMPLE - mongodb+srv://[UserName]:[password]@cluster0.dciqs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+FILL THIS WAY 👇
+
+mongodb+srv://MRUSERNAME:MRPASSWORD@cluster0.dciqs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+
+
 
 
 ### Deploy to Heroku
