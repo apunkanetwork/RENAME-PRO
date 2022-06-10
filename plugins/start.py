@@ -7,7 +7,7 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-	𝘏𝘦𝘭𝘭𝘰 👋 {message.from_user.first_name }
+	👋 Hey {message.from_user.first_name }
 	
 ➠ 𝘐'𝘮 𝘈 𝘛𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘍𝘪𝘭𝘦 🗃️ & 𝘝𝘪𝘥𝘦𝘰 📸 𝘙𝘦𝘯𝘢𝘮𝘦 𝘉𝘰𝘵.
 
