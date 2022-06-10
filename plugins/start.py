@@ -9,11 +9,11 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	👋 Hey {message.from_user.first_name }
 	
-🔰 𝘐 𝘊𝘢𝘯 𝘙𝘦𝘯𝘢𝘮𝘦 ✍️ 𝘈𝘯𝘺 𝘍𝘪𝘭𝘦 📂 & 𝘝𝘪𝘥𝘦𝘰 📽 𝘞𝘪𝘵𝘩 𝘊𝘶𝘴𝘵𝘰𝘮 𝘛𝘩𝘶𝘮𝘣𝘯𝘢𝘪𝘭 𝘚𝘶𝘱𝘱𝘰𝘳𝘵.
+<b>🔰 𝘐 𝘊𝘢𝘯 𝘙𝘦𝘯𝘢𝘮𝘦 ✍️ 𝘈𝘯𝘺 𝘍𝘪𝘭𝘦 📂 & 𝘝𝘪𝘥𝘦𝘰 📽 𝘞𝘪𝘵𝘩 𝘊𝘶𝘴𝘵𝘰𝘮 𝘛𝘩𝘶𝘮𝘣𝘯𝘢𝘪𝘭 𝘚𝘶𝘱𝘱𝘰𝘳𝘵.
 
 ↗️You Can Also Use Our [ @Online_File_Streaming_Bot ].
        
-➠ Contact Us : @Oxyver_Owner 
+➠ Contact Us : @Oxyver_Owner</b> 
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Official Channel" ,url="https://t.me/Oxyver"),InlineKeyboardButton("Movie Channel" ,url="https://t.me/Mdisk_Video_Movie_Webseries_2") ]  ]))
