@@ -20,10 +20,6 @@
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
-        "UPDATES_CHANNEL": {
-            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
-            "required": false 
-        },
         "ADMIN": {
             "description":"Add Your User ID"
         },
